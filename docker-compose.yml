@@ -10,7 +10,7 @@ services:
       - "8000:8000"
     volumes:
       - ./data/depo_mapping.csv:/app/data/depo_mapping.csv:ro
-      - ./model/model.cbm:/app/model/model.cbm:ro
+      - ./prod_model/model.cbm:/app/model/model.cbm:ro
     environment:
       - PYTHONUNBUFFERED=1
     restart: unless-stopped

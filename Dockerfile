@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements_api.txt
 COPY app/ ./app/
 
 COPY data/depo_mapping.csv ./data/
-COPY model/model.cbm ./model/
+COPY prod_model/model.cbm ./model/
 
 RUN mkdir -p data model
 

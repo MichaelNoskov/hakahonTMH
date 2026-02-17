@@ -65,7 +65,8 @@ async def root():
         "version": "1.0.0",
         "endpoints": {
             "/predict": "POST - Предсказание износа колес",
-            "/health": "GET - health check эндпоинт"
+            "/health": "GET - health check эндпоинт",
+            "/docs": "GET - документация"
         }
     }
 

@@ -30,7 +30,7 @@ figures/
 *.csv
 !data/depo_mapping.csv
 *.cbm
-!model/model.cbm
+!prod_model/model.cbm
 .git/
 .gitignore
 .DS_Store
