@@ -1,0 +1,11 @@
+mape(%),n_features,features
+42.29344642916078,13.0,"locomotive_series,locomotive_number,depo,steel_num,mileage_start,total_service_type_1,total_service_type_4,days_since_last_type_4,mean_days_between_type_1,mean_days_between_type_3,max_days_between_type_4,total_service_count,days_since_last_service"
+42.30623246505085,7.0,"locomotive_series,locomotive_number,depo,steel_num,mileage_start,directorate,total_service_type_4"
+42.38608202279857,6.0,"locomotive_series,locomotive_number,depo,steel_num,mean_days_between_type_3,age_days"
+42.38608202279857,6.0,"locomotive_series,locomotive_number,depo,steel_num,total_service_type_3,min_days_between_type_2"
+42.38608202279857,6.0,"locomotive_series,locomotive_number,depo,steel_num,total_service_type_3,mean_days_between_type_3"
+42.38608202279857,6.0,"locomotive_series,locomotive_number,depo,steel_num,total_service_type_3,age_days"
+42.40447774693093,5.0,"locomotive_number,depo,steel_num,total_service_type_3,min_days_between_type_2"
+42.43403383411596,3.0,"locomotive_number,depo,steel_num"
+42.568626010718475,2.0,"locomotive_number,depo"
+42.67820009579796,1.0,locomotive_number

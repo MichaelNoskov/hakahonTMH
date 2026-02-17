@@ -1,0 +1,13 @@
+pandas
+numpy
+catboost
+scikit-learn
+matplotlib
+seaborn
+geopy
+requests
+pymoo
+pykan
+torch
+pyyaml
+tqdm
