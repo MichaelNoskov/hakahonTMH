@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: wheel_wear_prediction_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data/depo_mapping.csv:/app/data/depo_mapping.csv:ro
+      - ./model/model.cbm:/app/model/model.cbm:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
